@@ -122,6 +122,7 @@ class _HomepageState extends State<Homepage> {
                         });
                       }
                     });
+                    Navigator.of(context).pop();
                   },
                   child: Text("Adicionar"),
                 ),
